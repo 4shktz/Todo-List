@@ -7,10 +7,17 @@
     <title>Todo List</title>
 </head>
 <body>
-    <label for="name">To Do :</label>
-    <input type="text" id="name">
-    <button id="valider">Valider</button>
+    <form action="#">
+        <label for="name">To Do :</label>
+        <input type="text" id="name" placeholder="To do..." minlength="1" required>
+        <button id="valider">Add</button>
+    </form>
     <ul></ul>
-    <script src="main.js"></script>
+    <div>
+        <button id="all">All</button>
+        <button id="done">Done</button>
+        <button id="in-pgr">In Progress</button>
+    </div>
+    <script src="main.js" type="module"></script>
 </body>
 </html>

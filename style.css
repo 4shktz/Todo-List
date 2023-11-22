@@ -12,6 +12,10 @@ body {
     height: 100vh;
 }
 
+li {
+    list-style: decimal;
+}
+
 button {
     margin-top: 10px;
 }
